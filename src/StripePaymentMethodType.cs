@@ -1,11 +1,11 @@
-﻿using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Stripe.Enums.PaymentMethodTypes;
 
 /// <summary>
 /// Represents all supported Stripe PaymentMethod values used for creating, listing, and managing payment methods via the Stripe API.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public partial class StripePaymentMethodType
 {
     /// <summary>Canadian bank debit payments.</summary>
