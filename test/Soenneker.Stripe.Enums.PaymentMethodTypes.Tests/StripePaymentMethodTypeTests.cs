@@ -1,10 +1,9 @@
-﻿using Xunit;
 
 namespace Soenneker.Stripe.Enums.PaymentMethodTypes.Tests;
 
 public sealed class StripePaymentMethodTypeTests
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
