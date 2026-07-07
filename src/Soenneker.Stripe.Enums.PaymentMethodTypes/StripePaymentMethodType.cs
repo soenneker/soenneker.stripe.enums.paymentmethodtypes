@@ -100,4 +100,82 @@ public partial class StripePaymentMethodType
 
     /// <summary>Zip pay-later service (formerly QuadPay).</summary>
     public static readonly StripePaymentMethodType Zip = new("zip");
+
+    /// <summary>Affirm buy now, pay later payments.</summary>
+    public static readonly StripePaymentMethodType Affirm = new("affirm");
+
+    /// <summary>Alma buy now, pay later payments.</summary>
+    public static readonly StripePaymentMethodType Alma = new("alma");
+
+    /// <summary>Amazon Pay payments.</summary>
+    public static readonly StripePaymentMethodType AmazonPay = new("amazon_pay");
+
+    /// <summary>Billie business payments.</summary>
+    public static readonly StripePaymentMethodType Billie = new("billie");
+
+    /// <summary>Bizum payments.</summary>
+    public static readonly StripePaymentMethodType Bizum = new("bizum");
+
+    /// <summary>In-person card payments.</summary>
+    public static readonly StripePaymentMethodType CardPresent = new("card_present");
+
+    /// <summary>Crypto payments.</summary>
+    public static readonly StripePaymentMethodType Crypto = new("crypto");
+
+    /// <summary>Custom payment methods.</summary>
+    public static readonly StripePaymentMethodType Custom = new("custom");
+
+    /// <summary>Interac in-person payments.</summary>
+    public static readonly StripePaymentMethodType InteracPresent = new("interac_present");
+
+    /// <summary>Kakao Pay payments.</summary>
+    public static readonly StripePaymentMethodType KakaoPay = new("kakao_pay");
+
+    /// <summary>Korean card payments.</summary>
+    public static readonly StripePaymentMethodType KrCard = new("kr_card");
+
+    /// <summary>MB WAY payments.</summary>
+    public static readonly StripePaymentMethodType MbWay = new("mb_way");
+
+    /// <summary>MobilePay payments.</summary>
+    public static readonly StripePaymentMethodType Mobilepay = new("mobilepay");
+
+    /// <summary>Multibanco payments.</summary>
+    public static readonly StripePaymentMethodType Multibanco = new("multibanco");
+
+    /// <summary>Naver Pay payments.</summary>
+    public static readonly StripePaymentMethodType NaverPay = new("naver_pay");
+
+    /// <summary>New Zealand bank account payments.</summary>
+    public static readonly StripePaymentMethodType NzBankAccount = new("nz_bank_account");
+
+    /// <summary>Pay by Bank payments.</summary>
+    public static readonly StripePaymentMethodType PayByBank = new("pay_by_bank");
+
+    /// <summary>PAYCO payments.</summary>
+    public static readonly StripePaymentMethodType Payco = new("payco");
+
+    /// <summary>PayTo payments.</summary>
+    public static readonly StripePaymentMethodType Payto = new("payto");
+
+    /// <summary>Pix payments.</summary>
+    public static readonly StripePaymentMethodType Pix = new("pix");
+
+    /// <summary>Samsung Pay payments.</summary>
+    public static readonly StripePaymentMethodType SamsungPay = new("samsung_pay");
+
+    /// <summary>Satispay payments.</summary>
+    public static readonly StripePaymentMethodType Satispay = new("satispay");
+
+    /// <summary>Scalapay payments.</summary>
+    public static readonly StripePaymentMethodType Scalapay = new("scalapay");
+
+    /// <summary>Sunbit payments.</summary>
+    public static readonly StripePaymentMethodType Sunbit = new("sunbit");
+
+    /// <summary>TWINT payments.</summary>
+    public static readonly StripePaymentMethodType Twint = new("twint");
+
+    /// <summary>UPI payments.</summary>
+    public static readonly StripePaymentMethodType Upi = new("upi");
 }
