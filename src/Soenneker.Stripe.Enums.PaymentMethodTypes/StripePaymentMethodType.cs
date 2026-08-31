@@ -3,7 +3,7 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Stripe.Enums.PaymentMethodTypes;
 
 /// <summary>
-/// Represents all supported Stripe PaymentMethod values used for creating, listing, and managing payment methods via the Stripe API.
+/// Represents a known Stripe payment-method type identifier.
 /// </summary>
 [EnumValue<string>]
 public partial class StripePaymentMethodType
